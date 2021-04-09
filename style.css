@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap);.container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+canvas {
+    position: fixed;
+    z-index: -1;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    font-family: Nunito, sans-serif;
+    color: #ffffff;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 100%;
+    box-sizing: border-box;
+    background-color: #000000;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    top: 40%;
+}
+
+#notice {
+    font-size: xxx-large;
+    top: 50%;
+}
+
+#logo {
+    top: 30%;
+}
+
